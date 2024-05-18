@@ -111,7 +111,6 @@ const H1 = styled("h1")`
   margin: 0;
   letter-spacing: 2px;
   font-size: 25px;
-
   font-family: "Roboto", sans-serif;
   @media only screen and (max-width: 400px) {
     text-align: center;
@@ -120,8 +119,7 @@ const H1 = styled("h1")`
 const H2 = styled("h2")`
   margin: 0;
   letter-spacing: 2px;
-  font-size: 20px;
-
+  font-size: 25px;
   font-family: "Roboto", sans-serif;
   @media only screen and (max-width: 400px) {
     text-align: center;
@@ -153,8 +151,8 @@ const Connect = () => {
           Biz bilan bog'lanishingiz bilanoq , biz sizga 5 daqiqada aloqaga
           chiqamiz !
         </P>
-        <H1 style={{ color: "#4f4f4f" }}>📲+998 (94) 656-10-06</H1>
-        <H1 style={{ color: "#4f4f4f" }}>📲+998 (90) 244-46-63</H1>
+        <H2 style={{ color: "#4f4f4f" }}>📲+998 (94) 656-10-06</H2>
+        <H2 style={{ color: "#4f4f4f" }}>📲+998 (90) 244-46-63</H2>
         <P>
           📨 Gmail
           <a
