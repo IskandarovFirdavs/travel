@@ -69,8 +69,8 @@ const H6 = styled(Link)`
 
 const Header2 = styled("div")`
   display: flex;
-  justify-content: end;
-  width: 30%;
+  justify-content: space-around;
+  width: 20%;
   height: 50px;
 `;
 const Accounts = styled(Link)`
@@ -82,7 +82,7 @@ const Accounts = styled(Link)`
   text-decoration: none;
   color: black;
 `;
-const AccountImg = styled("img")`
+const LangIcon = styled("img")`
   height: 50px;
 `;
 
@@ -122,6 +122,35 @@ const Navbar = () => {
               </div>
             </div>
           </div>
+          <div className="dropdown">
+            <img
+              src="https://cdn3d.iconscout.com/3d/premium/thumb/language-translate-4965044-4133429.png?f=webp"
+              alt="Cinque Terre"
+              height="50"
+            />
+            <div className="dropdown-content">
+              <div className="dropdown-content">
+                <Link to={"https://iskandarovfirdavs.github.io/travel/"}>
+                  <LangIcon
+                    src="https://static.vecteezy.com/system/resources/previews/016/328/589/original/uzbekistan-flat-rounded-flag-icon-with-transparent-background-free-png.png"
+                    alt=""
+                  />
+                </Link>
+                <Link to={""}>
+                  <LangIcon
+                    src="https://www.pinclipart.com/picdir/big/94-946409_flag-ru-russia-icon-russian-federation-flag-icon.png"
+                    alt=""
+                  />
+                </Link>
+                <Link to={""}>
+                  <LangIcon
+                    src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
+                    alt=""
+                  />
+                </Link>
+              </div>
+            </div>
+          </div>
         </Header2>
       ) : (
         <Right>
@@ -129,6 +158,7 @@ const Navbar = () => {
           <H6 to={"/ariza"}>ARIZA QOLDIRMOQ</H6>
           <H6 to={"/sharhlar"}>SHARHLAR</H6>
           <H6 to={"/bog'lanish"}>BIZ BILAN BOG'LANISH</H6>
+          div
         </Right>
       )}
     </Nav>

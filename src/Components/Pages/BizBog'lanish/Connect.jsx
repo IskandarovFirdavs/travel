@@ -50,10 +50,11 @@ const Right = styled("div")`
     width: 90%;
     height: 50%;
     justify-content: space-evenly;
+    margin: 20px;
   }
   @media only screen and (max-width: 430px) {
     height: 40%;
-    margin: 30px;
+    margin: 50px;
   }
 `;
 const LeftImg = styled("img")`
@@ -152,11 +153,10 @@ const Connect = () => {
           Biz bilan bog'lanishingiz bilanoq , biz sizga 5 daqiqada aloqaga
           chiqamiz !
         </P>
-        <H2>MUROJAT UCHUN TELEFON RAQAMLAR</H2>
         <H1 style={{ color: "#4f4f4f" }}>📲+998 (94) 656-10-06</H1>
         <H1 style={{ color: "#4f4f4f" }}>📲+998 (90) 244-46-63</H1>
         <P>
-          📨 Gmail :
+          📨 Gmail
           <a
             style={{ textDecoration: "none" }}
             href="http://iskandarovfirdavs09@gmail.com"
