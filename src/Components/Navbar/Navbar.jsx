@@ -102,7 +102,7 @@ const Navbar = () => {
   }, []);
   return (
     <Nav>
-      <Left to={"/traveluzb/"}>
+      <Left to={"/travel/"}>
         <H1>Uzbekistan Transfer.uz</H1>
       </Left>
       {width <= 800 ? (
