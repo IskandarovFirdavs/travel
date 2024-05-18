@@ -1,0 +1,7 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "explorer.compactFolders": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultColorDecorators": true
+}
