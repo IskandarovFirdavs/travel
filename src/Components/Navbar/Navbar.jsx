@@ -102,9 +102,8 @@ const Navbar = () => {
   }, []);
   return (
     <Nav>
-      <Left to={"/travelru/"}>
-        <H1>Uzbekistan Transfer.uz</H1>
-      </Left>
+      <a href="https://iskandarovfirdavs.github.io/travelru/"></a>
+      <H1>Uzbekistan Transfer.uz</H1>
       {width <= 800 ? (
         <Header2>
           {" "}
