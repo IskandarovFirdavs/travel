@@ -102,7 +102,7 @@ const Navbar = () => {
   }, []);
   return (
     <Nav>
-      <a href="https://iskandarovfirdavs.github.io/travelru/"></a>
+      <a href="https://iskandarovfirdavs.github.io/travel/"></a>
       <H1>Uzbekistan Transfer.uz</H1>
       {width <= 800 ? (
         <Header2>
