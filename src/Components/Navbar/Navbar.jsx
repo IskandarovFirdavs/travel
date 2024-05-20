@@ -10,7 +10,7 @@ const Nav = styled("div")`
   align-items: center;
   background-color: greenyellow;
 `;
-const Left = styled("a")`
+const Left = styled(a)`
   width: 30%;
   height: 100%;
   display: flex;
