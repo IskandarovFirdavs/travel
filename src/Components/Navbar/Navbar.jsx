@@ -10,7 +10,7 @@ const Nav = styled("div")`
   align-items: center;
   background-color: greenyellow;
 `;
-const Left = styled(Link)`
+const Left = styled("a")`
   width: 30%;
   height: 100%;
   display: flex;
@@ -102,8 +102,10 @@ const Navbar = () => {
   }, []);
   return (
     <Nav>
-      <a href="https://iskandarovfirdavs.github.io/travel/"></a>
-      <H1>Uzbekistan Transfer.uz</H1>
+      <Left href="https://iskandarovfirdavs.github.io/travel/">
+        <H1>Uzbekistan Transfer.uz</H1>
+      </Left>
+
       {width <= 800 ? (
         <Header2>
           {" "}
