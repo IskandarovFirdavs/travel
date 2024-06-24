@@ -64,15 +64,7 @@ const Header2 = styled("div")`
   width: 20%;
   height: 50px;
 `;
-const Accounts = styled(Link)`
-  width: 11%;
-  height: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-decoration: none;
-  color: black;
-`;
+
 const LangIcon = styled("img")`
   height: 50px;
 `;
@@ -102,7 +94,7 @@ const Navbar = () => {
           textDecoration: "none",
           cursor: "auto",
           justifyContent: "center",
-          marginTop: "-10px",
+          marginTop: "-10px"
         }}
         href="https://iskandarovfirdavs.github.io/travel/"
       >
@@ -129,12 +121,6 @@ const Navbar = () => {
                 <a href="https://iskandarovfirdavs.github.io/traveluzb/">
                   <LangIcon
                     src="https://www.pinclipart.com/picdir/big/94-946409_flag-ru-russia-icon-russian-federation-flag-icon.png"
-                    alt=""
-                  />
-                </a>
-                <a href="https://iskandarovfirdavs.github.io/travelru/">
-                  <LangIcon
-                    src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
                     alt=""
                   />
                 </a>
@@ -180,12 +166,6 @@ const Navbar = () => {
                 <a href="https://iskandarovfirdavs.github.io/traveluzb/">
                   <LangIcon
                     src="https://www.pinclipart.com/picdir/big/94-946409_flag-ru-russia-icon-russian-federation-flag-icon.png"
-                    alt=""
-                  />
-                </a>
-                <a href="https://iskandarovfirdavs.github.io/travelru/">
-                  <LangIcon
-                    src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
                     alt=""
                   />
                 </a>
